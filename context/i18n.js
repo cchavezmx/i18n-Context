@@ -17,7 +17,8 @@ export function I18NProvider({ children }) {
   const t = (key, args) => {
     let translation = lenguages[locale][key]    
 
-    if(translation.length === 0) {
+    
+    if(!args) {
       return translation
     }
 

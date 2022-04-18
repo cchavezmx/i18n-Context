@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          {t('TEST_TITLE', { saludo: 'Hola NextJs', nombre: 'Juan' })}
+          {t('TEST_TITLE', { saludo: 'Hola' })}
         </h1>       
       </main>
 
